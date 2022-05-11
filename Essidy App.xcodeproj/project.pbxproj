@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71412E0C281D53F100C7E0AB /* Essidy_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412DFC281D53F100C7E0AB /* Essidy_AppApp.swift */; };
+		71412E0D281D53F100C7E0AB /* Essidy_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412DFC281D53F100C7E0AB /* Essidy_AppApp.swift */; };
+		71412E10281D53F100C7E0AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71412DFE281D53F100C7E0AB /* Assets.xcassets */; };
+		71412E11281D53F100C7E0AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71412DFE281D53F100C7E0AB /* Assets.xcassets */; };
+		71412E1B281D547000C7E0AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71412E1A281D547000C7E0AB /* GoogleService-Info.plist */; };
+		71412E1C281D547000C7E0AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71412E1A281D547000C7E0AB /* GoogleService-Info.plist */; };
+		71412E1F281D615300C7E0AB /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 71412E1E281D615300C7E0AB /* FirebaseDatabase */; };
+		71412E21281D615300C7E0AB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 71412E20281D615300C7E0AB /* FirebaseFirestore */; };
+		71412E2B281D631400C7E0AB /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E27281D631300C7E0AB /* SwiftUIView.swift */; };
+		71412E2C281D631400C7E0AB /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E27281D631300C7E0AB /* SwiftUIView.swift */; };
+		71412E2D281D631400C7E0AB /* simulated_data.csv in Resources */ = {isa = PBXBuildFile; fileRef = 71412E28281D631400C7E0AB /* simulated_data.csv */; };
+		71412E2E281D631400C7E0AB /* simulated_data.csv in Resources */ = {isa = PBXBuildFile; fileRef = 71412E28281D631400C7E0AB /* simulated_data.csv */; };
+		71412E2F281D631400C7E0AB /* SmartwatchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E29281D631400C7E0AB /* SmartwatchData.swift */; };
+		71412E30281D631400C7E0AB /* SmartwatchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E29281D631400C7E0AB /* SmartwatchData.swift */; };
+		71412E31281D631400C7E0AB /* simulated_data_simple.csv in Resources */ = {isa = PBXBuildFile; fileRef = 71412E2A281D631400C7E0AB /* simulated_data_simple.csv */; };
+		71412E32281D631400C7E0AB /* simulated_data_simple.csv in Resources */ = {isa = PBXBuildFile; fileRef = 71412E2A281D631400C7E0AB /* simulated_data_simple.csv */; };
+		71412E35281D63BE00C7E0AB /* Health Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E33281D63BD00C7E0AB /* Health Data.swift */; };
+		71412E36281D63BE00C7E0AB /* Health Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E33281D63BD00C7E0AB /* Health Data.swift */; };
+		71412E37281D63BE00C7E0AB /* PainCrisisDataBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E34281D63BE00C7E0AB /* PainCrisisDataBasic.swift */; };
+		71412E38281D63BE00C7E0AB /* PainCrisisDataBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E34281D63BE00C7E0AB /* PainCrisisDataBasic.swift */; };
+		71412E3A281D63C400C7E0AB /* ViewPainCrisisDataBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E39281D63C400C7E0AB /* ViewPainCrisisDataBasic.swift */; };
+		71412E3B281D63C400C7E0AB /* ViewPainCrisisDataBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E39281D63C400C7E0AB /* ViewPainCrisisDataBasic.swift */; };
+		71412E45281D63CA00C7E0AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E3C281D63CA00C7E0AB /* ContentView.swift */; };
+		71412E46281D63CA00C7E0AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E3C281D63CA00C7E0AB /* ContentView.swift */; };
+		71412E47281D63CA00C7E0AB /* LogCrisisDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E3D281D63CA00C7E0AB /* LogCrisisDetail.swift */; };
+		71412E48281D63CA00C7E0AB /* LogCrisisDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E3D281D63CA00C7E0AB /* LogCrisisDetail.swift */; };
+		71412E49281D63CA00C7E0AB /* PainCrisis2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E3E281D63CA00C7E0AB /* PainCrisis2.swift */; };
+		71412E4A281D63CA00C7E0AB /* PainCrisis2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E3E281D63CA00C7E0AB /* PainCrisis2.swift */; };
+		71412E4D281D63CA00C7E0AB /* LogDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E40281D63CA00C7E0AB /* LogDetail.swift */; };
+		71412E4E281D63CA00C7E0AB /* LogDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E40281D63CA00C7E0AB /* LogDetail.swift */; };
+		71412E4F281D63CA00C7E0AB /* CompletedLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E41281D63CA00C7E0AB /* CompletedLog.swift */; };
+		71412E50281D63CA00C7E0AB /* CompletedLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E41281D63CA00C7E0AB /* CompletedLog.swift */; };
+		71412E51281D63CA00C7E0AB /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E42281D63CA00C7E0AB /* ListView.swift */; };
+		71412E52281D63CA00C7E0AB /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E42281D63CA00C7E0AB /* ListView.swift */; };
+		71412E53281D63CA00C7E0AB /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E43281D63CA00C7E0AB /* MenuList.swift */; };
+		71412E54281D63CA00C7E0AB /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E43281D63CA00C7E0AB /* MenuList.swift */; };
+		71412E55281D63CA00C7E0AB /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E44281D63CA00C7E0AB /* MainPage.swift */; };
+		71412E56281D63CA00C7E0AB /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E44281D63CA00C7E0AB /* MainPage.swift */; };
+		71412E5E281D63D200C7E0AB /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E57281D63D200C7E0AB /* PlayButton.swift */; };
+		71412E5F281D63D200C7E0AB /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E57281D63D200C7E0AB /* PlayButton.swift */; };
+		71412E60281D63D200C7E0AB /* PainIntensity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E58281D63D200C7E0AB /* PainIntensity.swift */; };
+		71412E61281D63D200C7E0AB /* PainIntensity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E58281D63D200C7E0AB /* PainIntensity.swift */; };
+		71412E62281D63D200C7E0AB /* SlideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E59281D63D200C7E0AB /* SlideBar.swift */; };
+		71412E63281D63D200C7E0AB /* SlideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E59281D63D200C7E0AB /* SlideBar.swift */; };
+		71412E64281D63D200C7E0AB /* PainRelieved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E5A281D63D200C7E0AB /* PainRelieved.swift */; };
+		71412E65281D63D200C7E0AB /* PainRelieved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E5A281D63D200C7E0AB /* PainRelieved.swift */; };
+		71412E66281D63D200C7E0AB /* PotentialTriggers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E5B281D63D200C7E0AB /* PotentialTriggers.swift */; };
+		71412E67281D63D200C7E0AB /* PotentialTriggers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E5B281D63D200C7E0AB /* PotentialTriggers.swift */; };
+		71412E68281D63D200C7E0AB /* PainLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E5C281D63D200C7E0AB /* PainLocator.swift */; };
+		71412E69281D63D200C7E0AB /* PainLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E5C281D63D200C7E0AB /* PainLocator.swift */; };
+		71412E6A281D63D200C7E0AB /* LogPainCrisisButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E5D281D63D200C7E0AB /* LogPainCrisisButton.swift */; };
+		71412E6B281D63D200C7E0AB /* LogPainCrisisButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71412E5D281D63D200C7E0AB /* LogPainCrisisButton.swift */; };
+		717E02A6281D6BA800748418 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 717E02A5281D6BA800748418 /* Charts */; };
+		717E02A8281D6BEF00748418 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717E02A7281D6BEF00748418 /* ViewController.swift */; };
+		717E02A9281D6BEF00748418 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717E02A7281D6BEF00748418 /* ViewController.swift */; };
+		717E02B2281D8D0A00748418 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 717E02B1281D8D0A00748418 /* SwiftUICharts */; };
+		717E02B7281D8D9E00748418 /* TemperatureLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717E02B6281D8D9E00748418 /* TemperatureLineChart.swift */; };
+		717E02B8281D8D9E00748418 /* TemperatureLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717E02B6281D8D9E00748418 /* TemperatureLineChart.swift */; };
+		717E02D2281FC3F800748418 /* HRLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717E02D1281FC3F800748418 /* HRLineChart.swift */; };
+		717E02D3281FC3F800748418 /* HRLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717E02D1281FC3F800748418 /* HRLineChart.swift */; };
+		717E02D5281FC86B00748418 /* VO2LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717E02D4281FC86B00748418 /* VO2LineChart.swift */; };
+		717E02D6281FC86B00748418 /* VO2LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717E02D4281FC86B00748418 /* VO2LineChart.swift */; };
+		717E02D8281FCE7500748418 /* ChooseChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717E02D7281FCE7500748418 /* ChooseChart.swift */; };
+		717E02D9281FCE7500748418 /* ChooseChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717E02D7281FCE7500748418 /* ChooseChart.swift */; };
+		71BBE03B282B216A004CB197 /* NotificationsTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BBE03A282B216A004CB197 /* NotificationsTimeline.swift */; };
+		71BBE03C282B216A004CB197 /* NotificationsTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BBE03A282B216A004CB197 /* NotificationsTimeline.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71412DFC281D53F100C7E0AB /* Essidy_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Essidy_AppApp.swift; sourceTree = "<group>"; };
+		71412DFE281D53F100C7E0AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71412E03281D53F100C7E0AB /* Essidy App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Essidy App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71412E09281D53F100C7E0AB /* Essidy App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Essidy App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71412E0B281D53F100C7E0AB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		71412E1A281D547000C7E0AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		71412E27281D631300C7E0AB /* SwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		71412E28281D631400C7E0AB /* simulated_data.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = simulated_data.csv; sourceTree = "<group>"; };
+		71412E29281D631400C7E0AB /* SmartwatchData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartwatchData.swift; sourceTree = "<group>"; };
+		71412E2A281D631400C7E0AB /* simulated_data_simple.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = simulated_data_simple.csv; sourceTree = "<group>"; };
+		71412E33281D63BD00C7E0AB /* Health Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Health Data.swift"; sourceTree = "<group>"; };
+		71412E34281D63BE00C7E0AB /* PainCrisisDataBasic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PainCrisisDataBasic.swift; sourceTree = "<group>"; };
+		71412E39281D63C400C7E0AB /* ViewPainCrisisDataBasic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPainCrisisDataBasic.swift; sourceTree = "<group>"; };
+		71412E3C281D63CA00C7E0AB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		71412E3D281D63CA00C7E0AB /* LogCrisisDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogCrisisDetail.swift; sourceTree = "<group>"; };
+		71412E3E281D63CA00C7E0AB /* PainCrisis2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PainCrisis2.swift; sourceTree = "<group>"; };
+		71412E40281D63CA00C7E0AB /* LogDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogDetail.swift; sourceTree = "<group>"; };
+		71412E41281D63CA00C7E0AB /* CompletedLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedLog.swift; sourceTree = "<group>"; };
+		71412E42281D63CA00C7E0AB /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		71412E43281D63CA00C7E0AB /* MenuList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		71412E44281D63CA00C7E0AB /* MainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		71412E57281D63D200C7E0AB /* PlayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		71412E58281D63D200C7E0AB /* PainIntensity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PainIntensity.swift; sourceTree = "<group>"; };
+		71412E59281D63D200C7E0AB /* SlideBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideBar.swift; sourceTree = "<group>"; };
+		71412E5A281D63D200C7E0AB /* PainRelieved.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PainRelieved.swift; sourceTree = "<group>"; };
+		71412E5B281D63D200C7E0AB /* PotentialTriggers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PotentialTriggers.swift; sourceTree = "<group>"; };
+		71412E5C281D63D200C7E0AB /* PainLocator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PainLocator.swift; sourceTree = "<group>"; };
+		71412E5D281D63D200C7E0AB /* LogPainCrisisButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogPainCrisisButton.swift; sourceTree = "<group>"; };
+		717E02A7281D6BEF00748418 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		717E02B6281D8D9E00748418 /* TemperatureLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureLineChart.swift; sourceTree = "<group>"; };
+		717E02D1281FC3F800748418 /* HRLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRLineChart.swift; sourceTree = "<group>"; };
+		717E02D4281FC86B00748418 /* VO2LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VO2LineChart.swift; sourceTree = "<group>"; };
+		717E02D7281FCE7500748418 /* ChooseChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseChart.swift; sourceTree = "<group>"; };
+		71BBE03A282B216A004CB197 /* NotificationsTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsTimeline.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71412E00281D53F100C7E0AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71412E1F281D615300C7E0AB /* FirebaseDatabase in Frameworks */,
+				717E02B2281D8D0A00748418 /* SwiftUICharts in Frameworks */,
+				717E02A6281D6BA800748418 /* Charts in Frameworks */,
+				71412E21281D615300C7E0AB /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71412E06281D53F100C7E0AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71412DF6281D53F000C7E0AB = {
+			isa = PBXGroup;
+			children = (
+				71412DFB281D53F100C7E0AB /* Shared */,
+				71412E0A281D53F100C7E0AB /* macOS */,
+				71412E04281D53F100C7E0AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71412DFB281D53F100C7E0AB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				71412DFC281D53F100C7E0AB /* Essidy_AppApp.swift */,
+				71412E22281D62CF00C7E0AB /* Data */,
+				71412E23281D62D500C7E0AB /* Models */,
+				71412E24281D62E100C7E0AB /* ViewModels */,
+				71412E25281D62E700C7E0AB /* Views */,
+				71412E26281D62ED00C7E0AB /* SubViews */,
+				71412DFE281D53F100C7E0AB /* Assets.xcassets */,
+				71412E1A281D547000C7E0AB /* GoogleService-Info.plist */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		71412E04281D53F100C7E0AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71412E03281D53F100C7E0AB /* Essidy App.app */,
+				71412E09281D53F100C7E0AB /* Essidy App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71412E0A281D53F100C7E0AB /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				71412E0B281D53F100C7E0AB /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		71412E22281D62CF00C7E0AB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				71412E29281D631400C7E0AB /* SmartwatchData.swift */,
+				71412E27281D631300C7E0AB /* SwiftUIView.swift */,
+				71412E28281D631400C7E0AB /* simulated_data.csv */,
+				71412E2A281D631400C7E0AB /* simulated_data_simple.csv */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		71412E23281D62D500C7E0AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				71412E33281D63BD00C7E0AB /* Health Data.swift */,
+				71412E34281D63BE00C7E0AB /* PainCrisisDataBasic.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		71412E24281D62E100C7E0AB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				71412E39281D63C400C7E0AB /* ViewPainCrisisDataBasic.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		71412E25281D62E700C7E0AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				71412E44281D63CA00C7E0AB /* MainPage.swift */,
+				71412E3C281D63CA00C7E0AB /* ContentView.swift */,
+				71412E41281D63CA00C7E0AB /* CompletedLog.swift */,
+				71412E42281D63CA00C7E0AB /* ListView.swift */,
+				71412E3D281D63CA00C7E0AB /* LogCrisisDetail.swift */,
+				71412E40281D63CA00C7E0AB /* LogDetail.swift */,
+				71412E43281D63CA00C7E0AB /* MenuList.swift */,
+				71412E3E281D63CA00C7E0AB /* PainCrisis2.swift */,
+				717E02A7281D6BEF00748418 /* ViewController.swift */,
+				717E02B9281D8F9B00748418 /* Charts */,
+				71BBE03A282B216A004CB197 /* NotificationsTimeline.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		71412E26281D62ED00C7E0AB /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				71412E5D281D63D200C7E0AB /* LogPainCrisisButton.swift */,
+				71412E58281D63D200C7E0AB /* PainIntensity.swift */,
+				71412E5C281D63D200C7E0AB /* PainLocator.swift */,
+				71412E5A281D63D200C7E0AB /* PainRelieved.swift */,
+				71412E57281D63D200C7E0AB /* PlayButton.swift */,
+				71412E5B281D63D200C7E0AB /* PotentialTriggers.swift */,
+				71412E59281D63D200C7E0AB /* SlideBar.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		717E02B9281D8F9B00748418 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				717E02D7281FCE7500748418 /* ChooseChart.swift */,
+				717E02B6281D8D9E00748418 /* TemperatureLineChart.swift */,
+				717E02D4281FC86B00748418 /* VO2LineChart.swift */,
+				717E02D1281FC3F800748418 /* HRLineChart.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71412E02281D53F100C7E0AB /* Essidy App (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71412E14281D53F100C7E0AB /* Build configuration list for PBXNativeTarget "Essidy App (iOS)" */;
+			buildPhases = (
+				71412DFF281D53F100C7E0AB /* Sources */,
+				71412E00281D53F100C7E0AB /* Frameworks */,
+				71412E01281D53F100C7E0AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Essidy App (iOS)";
+			packageProductDependencies = (
+				71412E1E281D615300C7E0AB /* FirebaseDatabase */,
+				71412E20281D615300C7E0AB /* FirebaseFirestore */,
+				717E02A5281D6BA800748418 /* Charts */,
+				717E02B1281D8D0A00748418 /* SwiftUICharts */,
+			);
+			productName = "Essidy App (iOS)";
+			productReference = 71412E03281D53F100C7E0AB /* Essidy App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71412E08281D53F100C7E0AB /* Essidy App (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71412E17281D53F100C7E0AB /* Build configuration list for PBXNativeTarget "Essidy App (macOS)" */;
+			buildPhases = (
+				71412E05281D53F100C7E0AB /* Sources */,
+				71412E06281D53F100C7E0AB /* Frameworks */,
+				71412E07281D53F100C7E0AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Essidy App (macOS)";
+			productName = "Essidy App (macOS)";
+			productReference = 71412E09281D53F100C7E0AB /* Essidy App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71412DF7281D53F000C7E0AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					71412E02281D53F100C7E0AB = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					71412E08281D53F100C7E0AB = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 71412DFA281D53F000C7E0AB /* Build configuration list for PBXProject "Essidy App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71412DF6281D53F000C7E0AB;
+			packageReferences = (
+				71412E1D281D615300C7E0AB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				717E02A4281D6BA800748418 /* XCRemoteSwiftPackageReference "Charts" */,
+				717E02B0281D8D0900748418 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+			);
+			productRefGroup = 71412E04281D53F100C7E0AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71412E02281D53F100C7E0AB /* Essidy App (iOS) */,
+				71412E08281D53F100C7E0AB /* Essidy App (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71412E01281D53F100C7E0AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71412E10281D53F100C7E0AB /* Assets.xcassets in Resources */,
+				71412E31281D631400C7E0AB /* simulated_data_simple.csv in Resources */,
+				71412E2D281D631400C7E0AB /* simulated_data.csv in Resources */,
+				71412E1B281D547000C7E0AB /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71412E07281D53F100C7E0AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71412E11281D53F100C7E0AB /* Assets.xcassets in Resources */,
+				71412E32281D631400C7E0AB /* simulated_data_simple.csv in Resources */,
+				71412E2E281D631400C7E0AB /* simulated_data.csv in Resources */,
+				71412E1C281D547000C7E0AB /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71412DFF281D53F100C7E0AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71412E68281D63D200C7E0AB /* PainLocator.swift in Sources */,
+				71412E35281D63BE00C7E0AB /* Health Data.swift in Sources */,
+				71412E37281D63BE00C7E0AB /* PainCrisisDataBasic.swift in Sources */,
+				71412E66281D63D200C7E0AB /* PotentialTriggers.swift in Sources */,
+				717E02A8281D6BEF00748418 /* ViewController.swift in Sources */,
+				71412E45281D63CA00C7E0AB /* ContentView.swift in Sources */,
+				71412E60281D63D200C7E0AB /* PainIntensity.swift in Sources */,
+				71412E0C281D53F100C7E0AB /* Essidy_AppApp.swift in Sources */,
+				71412E5E281D63D200C7E0AB /* PlayButton.swift in Sources */,
+				717E02D8281FCE7500748418 /* ChooseChart.swift in Sources */,
+				71412E4F281D63CA00C7E0AB /* CompletedLog.swift in Sources */,
+				71412E3A281D63C400C7E0AB /* ViewPainCrisisDataBasic.swift in Sources */,
+				71BBE03B282B216A004CB197 /* NotificationsTimeline.swift in Sources */,
+				71412E2B281D631400C7E0AB /* SwiftUIView.swift in Sources */,
+				71412E2F281D631400C7E0AB /* SmartwatchData.swift in Sources */,
+				71412E51281D63CA00C7E0AB /* ListView.swift in Sources */,
+				71412E55281D63CA00C7E0AB /* MainPage.swift in Sources */,
+				71412E47281D63CA00C7E0AB /* LogCrisisDetail.swift in Sources */,
+				71412E49281D63CA00C7E0AB /* PainCrisis2.swift in Sources */,
+				717E02D2281FC3F800748418 /* HRLineChart.swift in Sources */,
+				71412E6A281D63D200C7E0AB /* LogPainCrisisButton.swift in Sources */,
+				71412E53281D63CA00C7E0AB /* MenuList.swift in Sources */,
+				71412E64281D63D200C7E0AB /* PainRelieved.swift in Sources */,
+				71412E62281D63D200C7E0AB /* SlideBar.swift in Sources */,
+				717E02B7281D8D9E00748418 /* TemperatureLineChart.swift in Sources */,
+				71412E4D281D63CA00C7E0AB /* LogDetail.swift in Sources */,
+				717E02D5281FC86B00748418 /* VO2LineChart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71412E05281D53F100C7E0AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71412E69281D63D200C7E0AB /* PainLocator.swift in Sources */,
+				71412E36281D63BE00C7E0AB /* Health Data.swift in Sources */,
+				71412E38281D63BE00C7E0AB /* PainCrisisDataBasic.swift in Sources */,
+				71412E67281D63D200C7E0AB /* PotentialTriggers.swift in Sources */,
+				717E02A9281D6BEF00748418 /* ViewController.swift in Sources */,
+				71412E46281D63CA00C7E0AB /* ContentView.swift in Sources */,
+				71412E61281D63D200C7E0AB /* PainIntensity.swift in Sources */,
+				71412E0D281D53F100C7E0AB /* Essidy_AppApp.swift in Sources */,
+				71412E5F281D63D200C7E0AB /* PlayButton.swift in Sources */,
+				717E02D9281FCE7500748418 /* ChooseChart.swift in Sources */,
+				71412E50281D63CA00C7E0AB /* CompletedLog.swift in Sources */,
+				71412E3B281D63C400C7E0AB /* ViewPainCrisisDataBasic.swift in Sources */,
+				71BBE03C282B216A004CB197 /* NotificationsTimeline.swift in Sources */,
+				71412E2C281D631400C7E0AB /* SwiftUIView.swift in Sources */,
+				71412E30281D631400C7E0AB /* SmartwatchData.swift in Sources */,
+				71412E52281D63CA00C7E0AB /* ListView.swift in Sources */,
+				71412E56281D63CA00C7E0AB /* MainPage.swift in Sources */,
+				71412E48281D63CA00C7E0AB /* LogCrisisDetail.swift in Sources */,
+				71412E4A281D63CA00C7E0AB /* PainCrisis2.swift in Sources */,
+				717E02D3281FC3F800748418 /* HRLineChart.swift in Sources */,
+				71412E6B281D63D200C7E0AB /* LogPainCrisisButton.swift in Sources */,
+				71412E54281D63CA00C7E0AB /* MenuList.swift in Sources */,
+				71412E65281D63D200C7E0AB /* PainRelieved.swift in Sources */,
+				71412E63281D63D200C7E0AB /* SlideBar.swift in Sources */,
+				717E02B8281D8D9E00748418 /* TemperatureLineChart.swift in Sources */,
+				71412E4E281D63CA00C7E0AB /* LogDetail.swift in Sources */,
+				717E02D6281FC86B00748418 /* VO2LineChart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		71412E12281D53F100C7E0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71412E13281D53F100C7E0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		71412E15281D53F100C7E0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 247FSSHTUU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "group7.Essidy-App";
+				PRODUCT_NAME = "Essidy App";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71412E16281D53F100C7E0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 247FSSHTUU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "group7.Essidy-App";
+				PRODUCT_NAME = "Essidy App";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71412E18281D53F100C7E0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 247FSSHTUU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "group7.Essidy-App";
+				PRODUCT_NAME = "Essidy App";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		71412E19281D53F100C7E0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 247FSSHTUU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "group7.Essidy-App";
+				PRODUCT_NAME = "Essidy App";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71412DFA281D53F000C7E0AB /* Build configuration list for PBXProject "Essidy App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71412E12281D53F100C7E0AB /* Debug */,
+				71412E13281D53F100C7E0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71412E14281D53F100C7E0AB /* Build configuration list for PBXNativeTarget "Essidy App (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71412E15281D53F100C7E0AB /* Debug */,
+				71412E16281D53F100C7E0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71412E17281D53F100C7E0AB /* Build configuration list for PBXNativeTarget "Essidy App (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71412E18281D53F100C7E0AB /* Debug */,
+				71412E19281D53F100C7E0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		71412E1D281D615300C7E0AB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		717E02A4281D6BA800748418 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		717E02B0281D8D0900748418 /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/willdale/SwiftUICharts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		71412E1E281D615300C7E0AB /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71412E1D281D615300C7E0AB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		71412E20281D615300C7E0AB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71412E1D281D615300C7E0AB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		717E02A5281D6BA800748418 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 717E02A4281D6BA800748418 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+		717E02B1281D8D0A00748418 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 717E02B0281D8D0900748418 /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 71412DF7281D53F000C7E0AB /* Project object */;
+}
